@@ -1,8 +1,8 @@
-<h2>Hi! My name is Jaiden Siu 👋</h2>
+<h2>Hi! My name is Jaiden 👋</h2>
 
 I am a biomedical engineering student at the University of British Columbia interested in software engineering and data science.
 
-You can visit my [website portfolio](https://jaidensiu.github.io/) for more about me!
+You can visit my [website portfolio](https://jaidensiu.github.io/) to learn more about me!
 
 <!---
 jaidensiu/jaidensiu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
