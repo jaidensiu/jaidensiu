@@ -1,6 +1,6 @@
 <h2>Hi! My name is Jaiden 👋</h2>
 
-I am a Biomedical Engineering student at the University of British Columbia interested in software engineering and bioinformatics!
+I am an Engineering student at the University of British Columbia interested in anything related to software engineering!
 
 You can visit my [website portfolio](https://jaidensiu.github.io/) to learn more about me!
 
