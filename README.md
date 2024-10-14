@@ -9,8 +9,10 @@
 data class Jaiden(
   val name: String = "Jaiden Siu",
   val job: String = "Software Engineer Intern at Intuit",
+  val interests: List<String> = listOf("Mobile", "Backend", "Infra"),
   val school: String = "University of British Columbia",
   val studies: List<String> = listOf("Biomedical Engineering", "Computer Science"),
   val leadership: String = "BMEUSA Co-President",
-  val hobbies: List<String> = listOf("Programming", "Calisthenics", "Piano")
+  val hobbies: List<String> = listOf("Programming", "Calisthenics", "Swimming", "Piano")
 )
+```
