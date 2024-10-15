@@ -6,14 +6,14 @@
   <a href="https://www.linkedin.com/in/jaidensiu"><img src="https://img.shields.io/badge/linkedin-black?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"></a>
 </div>
 
-```kotlin
-data class Jaiden(
-  val name: String = "Jaiden Siu",
-  val job: String = "Software Engineer Intern at Intuit",
-  val interests: List<String> = listOf("Mobile", "Backend", "Infra"),
-  val school: String = "University of British Columbia",
-  val studies: List<String> = listOf("Biomedical Engineering", "Computer Science"),
-  val leadership: String = "BMEUSA Co-President",
-  val hobbies: List<String> = listOf("Programming", "Calisthenics", "Swimming", "Piano")
-)
+```go
+jaiden := Person{
+    name:       "Jaiden Siu",
+    occupation: "Software Engineer Intern at Intuit",
+    interests:  []string{"Mobile", "AI/ML", "Infra"},
+    school:     "University of British Columbia",
+    studies:    []string{"Biomedical Engineering", "Computer Science"},
+    leadership: "BMEUSA Co-President",
+    hobbies:    []string{"Programming", "Calisthenics", "Swimming", "Piano"},
+}
 ```
