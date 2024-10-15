@@ -10,7 +10,7 @@
 jaiden := Person{
     Name:       "Jaiden Siu",
     Occupation: "Software Engineer Intern at Intuit",
-    Interests:  []string{"Mobile", "AI/ML", "Infra"},
+    Interests:  []string{"Mobile", "Fullstack", "AI/ML Infra"},
     School:     "University of British Columbia",
     Studies:    []string{"Biomedical Engineering", "Computer Science"},
     Leadership: "BMEUSA Co-President",
