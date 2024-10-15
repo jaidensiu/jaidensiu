@@ -8,12 +8,12 @@
 
 ```go
 jaiden := Person{
-    name:       "Jaiden Siu",
-    occupation: "Software Engineer Intern at Intuit",
-    interests:  []string{"Mobile", "AI/ML", "Infra"},
-    school:     "University of British Columbia",
-    studies:    []string{"Biomedical Engineering", "Computer Science"},
-    leadership: "BMEUSA Co-President",
-    hobbies:    []string{"Programming", "Calisthenics", "Swimming", "Piano"},
+    Name:       "Jaiden Siu",
+    Occupation: "Software Engineer Intern at Intuit",
+    Interests:  []string{"Mobile", "AI/ML", "Infra"},
+    School:     "University of British Columbia",
+    Studies:    []string{"Biomedical Engineering", "Computer Science"},
+    Leadership: "BMEUSA Co-President",
+    Hobbies:    []string{"Programming", "Calisthenics", "Swimming", "Piano"},
 }
 ```
