@@ -1,4 +1,4 @@
-<h1>Hi, my name is Jaiden <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"></h1>
+<h1>Hi, my name is Jaiden <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="24px"></h1>
 
 <div>
   <a href="https://jaidensiu.vercel.app"><img src="https://img.shields.io/badge/website-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"></a>
