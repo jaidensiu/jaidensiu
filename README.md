@@ -29,6 +29,6 @@ data class Jaiden(
   <img src="https://img.shields.io/badge/graphql-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL">
   <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
-  <img src="https://img.shields.io/badge/ios-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS">
+<!--   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"> -->
+<!--   <img src="https://img.shields.io/badge/ios-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS"> -->
 </div>
