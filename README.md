@@ -12,7 +12,7 @@
 data class Jaiden(
   val name: String = "Jaiden Siu",
   val occupation: String = "Software Engineer Intern at Intuit",
-  val interests: List<String> = listOf("Mobile", "Fullstack", "AI/ML"),
+  val interests: List<String> = listOf("Mobile Applications", "Distributed Systems", "Artificial Intelligence"),
   val school: String = "University of British Columbia",
   val studies: List<String> = listOf("Biomedical Engineering", "Computer Science"),
   val leadership: String = "BMEUSA Co-President",
