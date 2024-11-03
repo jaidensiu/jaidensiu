@@ -1,4 +1,4 @@
-<h1>Hi, my name is Jaiden</h1>
+<h1>Hi, my name is Jaiden <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" style="width:24px; height:24px;"></h1>
 
 ![gopher](https://github.com/user-attachments/assets/2c68114a-0e07-4cd1-90a4-1675d7761611)
 
