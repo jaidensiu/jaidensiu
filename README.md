@@ -10,13 +10,13 @@
 
 <br>
 
-```kotlin
-data class Jaiden(
-  val name: String = "Jaiden Siu",
-  val occupation: String = "Software Engineer Intern at Intuit",
-  val school: String = "University of British Columbia",
-  val studies: List<String> = listOf("Biomedical Engineering", "Computer Science"),
-  val leadership: String = "BMEUSA Co-President",
-  val hobbies: List<String> = listOf("Calisthenics", "Swimming", "Piano")
-)
+```go
+jaiden := Jaiden{
+  Name:       "Jaiden Siu",
+  Occupation: "Software Engineer Intern at Intuit",
+  School:     "University of British Columbia",
+  Studies:    []string{"Biomedical Engineering", "Computer Science"},
+  Leadership: "BMEUSA Co-President",
+  Hobbies:    []string{"Calisthenics", "Swimming", "Piano"},
+}
 ```
