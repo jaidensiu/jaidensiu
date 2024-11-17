@@ -9,7 +9,7 @@
 </div>
 
 ```go
-jaiden := Jaiden{
+jaiden := Person{
   Name:       "Jaiden Siu",
   Occupation: "Software Engineer Intern at Intuit",
   School:     "University of British Columbia",
