@@ -8,13 +8,13 @@
   <a href="https://www.linkedin.com/in/jaidensiu"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </div>
 
-```go
-jaiden := Person{
-  Name:       "Jaiden Siu",
-  Occupation: "Software Engineer Intern at Intuit",
-  School:     "University of British Columbia",
-  Studies:    []string{"Biomedical Engineering", "Computer Science"},
-  Leadership: "BMEUSA Co-President",
-  Hobbies:    []string{"Calisthenics", "Swimming", "Piano"},
-}
+```kotlin
+val jaiden = Person(
+  name = "Jaiden Siu",
+  occupation = "Incoming Software Engineer Co-op at Dialpad",
+  school = "University of British Columbia",
+  studies = listOf("Biomedical Engineering", "Computer Science"),
+  leadership = "BMEUSA Co-President",
+  hobbies = listOf("Calisthenics", "Swimming", "Piano")
+)
 ```
