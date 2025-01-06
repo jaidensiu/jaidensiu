@@ -11,7 +11,7 @@
 ```kotlin
 val jaiden = Person(
   name = "Jaiden Siu",
-  occupation = "Incoming Software Engineer Intern at Dialpad",
+  occupation = "Software Engineer Intern at Dialpad",
   school = "University of British Columbia",
   studies = listOf("Biomedical Engineering", "Computer Science"),
   leadership = "BMEUSA Co-President",
