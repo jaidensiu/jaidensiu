@@ -14,7 +14,6 @@ val jaiden = Person(
   occupation = "Software Engineer Intern at Dialpad",
   school = "University of British Columbia",
   studies = listOf("Biomedical Engineering", "Computer Science"),
-  leadership = "BMEUSA Co-President",
-  hobbies = listOf("Calisthenics", "Swimming", "Piano")
+  hobbies = listOf("Calisthenics", "Swimming", "Piano", "Badminton")
 )
 ```
