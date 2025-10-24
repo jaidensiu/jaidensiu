@@ -10,12 +10,12 @@
   <a href="https://www.linkedin.com/in/jaidensiu"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </div>
 
-```go
-jaiden := Person{
-  Name:       "Jaiden Siu",
-  Occupation: "Software Engineer Intern at Dialpad",
-  School:     "University of British Columbia",
-  Studies:    []string{"Biomedical Engineering", "Computer Science"},
-  Hobbies:    []string{"Calisthenics", "Swimming", "Piano", "Badminton"},
-}
+```kotlin
+val jaiden = Person(
+    name = "Jaiden Siu",
+    occupation = "Software Engineer Co-op at Dialpad",
+    school = "University of British Columbia",
+    studies = listOf("Biomedical Engineering", "Computer Science"),
+    hobbies = listOf("Swimming", "Piano", "Badminton"),
+)
 ```
