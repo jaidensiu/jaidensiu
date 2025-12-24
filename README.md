@@ -13,9 +13,6 @@
 ```kotlin
 val jaiden = Person(
     name = "Jaiden Siu",
-    occupation = "Software Engineer Co-op at Dialpad",
-    school = "University of British Columbia",
-    studies = listOf("Biomedical Engineering", "Computer Science"),
-    hobbies = listOf("Swimming", "Piano", "Badminton"),
+    builds = listOf("libraries", "mobile apps", "backend services"),
 )
 ```
