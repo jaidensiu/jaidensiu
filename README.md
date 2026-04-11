@@ -14,6 +14,6 @@
 val jaiden = Person(
     name = "Jaiden Siu",
     about = "Passionate about building libraries, mobile apps, and backend services",
-    education = "BME + CS at the University of British Columbia",
+    education = "Biomedical Engineering + Computer Science at the University of British Columbia",
 )
 ```
