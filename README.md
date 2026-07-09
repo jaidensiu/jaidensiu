@@ -1,8 +1,8 @@
 <h1>Hi, my name is Jaiden <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" style="width:24px; height:24px;"></h1>
 
-<p align="center">
+<!-- <p align="center">
   <img width="600" alt="go_core_data_case_study" src="https://github.com/user-attachments/assets/a027af60-0c86-4b70-b484-d70d7780e11b" />
-</p>
+</p> -->
 
 <div>
   <a href="https://jaidensiu.vercel.app"><img src="https://img.shields.io/badge/website-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"></a>
@@ -13,7 +13,6 @@
 ```kotlin
 val jaiden = Person(
     name = "Jaiden Siu",
-    about = "Passionate about building libraries, mobile apps, and backend services",
-    education = "Biomedical Engineering + Computer Science at the University of British Columbia",
+    about = "Passionate about building SDKs/libraries, mobile apps, and backend services",
 )
 ```
