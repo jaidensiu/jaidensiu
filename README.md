@@ -13,6 +13,11 @@
 ```kotlin
 val jaiden = Person(
     name = "Jaiden Siu",
-    about = "Passionate about building SDKs/libraries, mobile apps, and backend services",
+    interests = listOf(
+        "all things Android",
+        "backend development",
+        "Kotlin programming",
+        "ambient computing",
+    ),
 )
 ```
