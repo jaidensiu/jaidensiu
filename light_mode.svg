@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="500" viewBox="0 0 840 500" font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="13px">
+<rect width="840" height="500" rx="14" fill="#f2f3f5"/>
+<rect x="10.5" y="10.5" width="345" height="479" rx="10" fill="#ffffff" stroke="#dfe1e5"/>
+<rect x="365.5" y="10.5" width="465" height="479" rx="10" fill="#ffffff" stroke="#dfe1e5"/>
+<text x="22" y="75" fill="#1f9d55" xml:space="preserve">           ==.             -=.</text>
+<text x="22" y="90" fill="#1f9d55" xml:space="preserve">           -*+:    ..    .=+=</text>
+<text x="22" y="105" fill="#1f9d55" xml:space="preserve">            -+=-----------+-</text>
+<text x="22" y="120" fill="#1f9d55" xml:space="preserve">           :-==-------------:.</text>
+<text x="22" y="135" fill="#1f9d55" xml:space="preserve">         :=================--=:</text>
+<text x="22" y="150" fill="#1f9d55" xml:space="preserve">        -==-+@%==========#@*----</text>
+<text x="22" y="165" fill="#1f9d55" xml:space="preserve">       :+=--+#+++++++++==+*+---=-</text>
+<text x="22" y="180" fill="#1f9d55" xml:space="preserve">       ++====+++++++++++++=======.</text>
+<text x="22" y="195" fill="#1f9d55" xml:space="preserve">       +*#####%%%%###########***=:</text>
+<text x="22" y="210" fill="#1f9d55" xml:space="preserve">   .---*+++++++*+++++++++++++=====--:</text>
+<text x="22" y="225" fill="#1f9d55" xml:space="preserve">  .=+*%*++++++***++++++++++++====##++:</text>
+<text x="22" y="240" fill="#1f9d55" xml:space="preserve"> .=**##*++++++***++++++++++++====*%*+=.</text>
+<text x="22" y="255" fill="#1f9d55" xml:space="preserve"> -+*#%=*++++++***++++++++++++====-%#*+-</text>
+<text x="22" y="270" fill="#1f9d55" xml:space="preserve">.+**#%.*++++++***+++++++++++++==+-##*+=.</text>
+<text x="22" y="285" fill="#1f9d55" xml:space="preserve">:+**## *++++******++++++++++++==+:*#**+:</text>
+<text x="22" y="300" fill="#1f9d55" xml:space="preserve">-***## +****************+++++++++.+#**+:</text>
+<text x="22" y="315" fill="#1f9d55" xml:space="preserve">:*##%+ -*******************++++++ =%#**:</text>
+<text x="22" y="330" fill="#1f9d55" xml:space="preserve"> :==-   ************************:  -==:</text>
+<text x="22" y="345" fill="#1f9d55" xml:space="preserve">        .###############******#-</text>
+<text x="22" y="360" fill="#1f9d55" xml:space="preserve">          =%%%%%%%%%########%+.</text>
+<text x="22" y="375" fill="#1f9d55" xml:space="preserve">           -%%@@@@@@@%%%%%%#+</text>
+<text x="22" y="390" fill="#1f9d55" xml:space="preserve">           -**###%@=-%%%##**+</text>
+<text x="22" y="405" fill="#1f9d55" xml:space="preserve">           -**####%: %%##***+</text>
+<text x="22" y="420" fill="#1f9d55" xml:space="preserve">           -****##%- %###***+</text>
+<text x="22" y="435" fill="#1f9d55" xml:space="preserve">           :+******:.+*##**+-</text>
+<text x="380" y="70" xml:space="preserve"><tspan fill="#0033b3">jaidensiu </tspan><tspan fill="#aeb3c2">──────────────────────────────────────────────</tspan></text>
+<text x="380" y="118" xml:space="preserve"><tspan fill="#871094">Uptime: </tspan><tspan fill="#aeb3c2">...................... </tspan><tspan fill="#080808">5 years, 6 months, 9 days</tspan></text>
+<text x="380" y="142" xml:space="preserve"><tspan fill="#871094">Interests: </tspan><tspan fill="#aeb3c2">.................... </tspan><tspan fill="#080808">mobile, backend, systems</tspan></text>
+<text x="380" y="166" xml:space="preserve"><tspan fill="#871094">Hobbies: </tspan><tspan fill="#aeb3c2">................. </tspan><tspan fill="#080808">calisthenics, swimming, piano</tspan></text>
+<text x="380" y="214" xml:space="preserve"><tspan fill="#0033b3">─ Contact </tspan><tspan fill="#aeb3c2">──────────────────────────────────────────────</tspan></text>
+<text x="380" y="238" xml:space="preserve"><tspan fill="#871094">Website: </tspan><tspan fill="#aeb3c2">.......................... </tspan><tspan fill="#080808">jaidensiu.vercel.app</tspan></text>
+<text x="380" y="262" xml:space="preserve"><tspan fill="#871094">Blog: </tspan><tspan fill="#aeb3c2">....................... </tspan><tspan fill="#080808">jaidensiu.vercel.app/blogs</tspan></text>
+<text x="380" y="286" xml:space="preserve"><tspan fill="#871094">LinkedIn: </tspan><tspan fill="#aeb3c2">................................. </tspan><tspan fill="#080808">in/jaidensiu</tspan></text>
+<text x="380" y="334" xml:space="preserve"><tspan fill="#0033b3">─ GitHub Stats </tspan><tspan fill="#aeb3c2">─────────────────────────────────────────</tspan></text>
+<text x="380" y="358" xml:space="preserve"><tspan fill="#871094">Repos: </tspan><tspan fill="#aeb3c2">.... </tspan><tspan fill="#080808">74 {Contributed: 14}</tspan><tspan fill="#aeb3c2"> | </tspan><tspan fill="#871094">Stars: </tspan><tspan fill="#aeb3c2">............ </tspan><tspan fill="#080808">5</tspan></text>
+<text x="380" y="382" xml:space="preserve"><tspan fill="#871094">Commits: </tspan><tspan fill="#aeb3c2">................. </tspan><tspan fill="#080808">3,598</tspan><tspan fill="#aeb3c2"> | </tspan><tspan fill="#871094">Followers: </tspan><tspan fill="#aeb3c2">....... </tspan><tspan fill="#080808">10</tspan></text>
+<text x="380" y="406" xml:space="preserve"><tspan fill="#871094">Lines of Code: </tspan><tspan fill="#080808">1,322,165</tspan><tspan fill="#aeb3c2"> ( </tspan><tspan fill="#067d17">2,161,399++</tspan><tspan fill="#aeb3c2">, </tspan><tspan fill="#c7222d">839,234--</tspan><tspan fill="#aeb3c2"> )</tspan></text>
+</svg>
