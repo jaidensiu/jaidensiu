@@ -38,8 +38,8 @@ jobs:
 
       - name: Commit
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "jaidensiu"
+          git config user.email "82122144+jaidensiu@users.noreply.github.com"
           git add assets/dark_mode.svg assets/light_mode.svg
           git diff --staged --quiet && exit 0
           git commit -m "chore: refresh profile card"
