@@ -7,9 +7,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "src/**"
-      - "*.gradle.kts"
-      - "gradle/**"
+      - "cmd/**"
+      - "go.mod"
       - ".github/workflows/update.yml"
 
 permissions:
@@ -26,19 +25,13 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: graalvm/setup-graalvm@27b360dbb857524eaf0b4c4cef364d38e5b4f173 # v1.6.7
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
         with:
-          java-version: "25"
-          distribution: graalvm
-
-      - uses: gradle/actions/setup-gradle@3f5f9adaf7d9fecd50b5935e54106014257a94e6 # v6.4.0
-
-      - name: Build native image
-        run: ./gradlew nativeCompile --no-daemon
+          go-version-file: go.mod
 
       # Fails the job (and leaves the committed SVGs untouched) on any GitHub API failure.
       - name: Render cards
-        run: ./build/native/nativeCompile/profile-card .
+        run: go run ./cmd/profile-card assets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
@@ -47,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dark_mode.svg light_mode.svg
+          git add assets/dark_mode.svg assets/light_mode.svg
           git diff --staged --quiet && exit 0
           git commit -m "chore: refresh profile card"
           git pull --rebase

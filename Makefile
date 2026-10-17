@@ -1,4 +1,4 @@
 .PHONY: preview
 preview:
-	./gradlew run -q --args="."
-	open -a "Google Chrome" dark_mode.svg light_mode.svg
+	go run ./cmd/profile-card assets
+	open -a "Google Chrome" assets/dark_mode.svg assets/light_mode.svg
