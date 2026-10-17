@@ -31,7 +31,7 @@ jobs:
 
       # Fails the job (and leaves the committed SVGs untouched) on any GitHub API failure.
       - name: Render cards
-        run: go run ./cmd/profile-card assets
+        run: make render
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
