@@ -27,7 +27,7 @@ func main() {
 	gh := newGitHubClient(httpTransport(token))
 	stats, err := fetchStats(gh, login)
 	if ge := (*GitHubError)(nil); errors.As(err, &ge) {
-		fail("error: dependency=github-graphql status=%d attempts=%d retries=%d cause=%s", ge.Status, ge.Attempts, gh.retries, ge.Msg)
+		fail("error: dependency=github-graphql status=%d attempts=%d retries=%d cause=%v", ge.Status, ge.Attempts, gh.retries, err)
 	} else if err != nil {
 		// unexpected response shape (missing field, wrong type): treat as a hard failure, never render partial stats
 		fail("error: dependency=github-graphql failure=unexpected-response retries=%d cause=%v", gh.retries, err)

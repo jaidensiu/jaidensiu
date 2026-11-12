@@ -33,7 +33,7 @@ const locQuery = `
 query($owner: String!, $name: String!, $id: ID!, $cursor: String) {
   repository(owner: $owner, name: $name) {
     defaultBranchRef { target { ... on Commit {
-      history(first: 100, author: { id: $id }, after: $cursor) {
+      history(first: 50, author: { id: $id }, after: $cursor) {
         pageInfo { hasNextPage endCursor }
         nodes { additions deletions }
       }
@@ -150,7 +150,7 @@ func linesOfCode(gh *gitHubClient, owner, name, userID string) (added, deleted i
 		}
 		vars := map[string]any{"owner": owner, "name": name, "id": userID, "cursor": cursor}
 		if err := gh.graphql(locQuery, vars, &data); err != nil {
-			return 0, 0, err
+			return 0, 0, fmt.Errorf("lines of code %s/%s: %w", owner, name, err)
 		}
 		if data.Repository == nil {
 			return 0, 0, fmt.Errorf("repository %s/%s missing from response", owner, name)
